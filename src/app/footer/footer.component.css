@@ -1,0 +1,41 @@
+.custom-container {
+  background-color: #1d232f !important;
+  margin-top: 2%;
+  padding: 1% 10%;
+}
+
+p, h6 {
+  color: #7e7d7d;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.inside-container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 100%;
+  width: 100%;
+  padding: 1%;
+  border: 0.3px solid white;
+}
+
+.text-reset {
+  color: #ffffff !important;
+}
+
+svg {
+  margin-right: 3%;
+}
+
+.custom-tab {
+  background-color: #171d26 !important;
+  color: #ffffff !important;
+  padding: 1% 0%;
+  font-size: 14px;
+}
+
+.custom-col {
+    margin-left: -3% !important;
+}
