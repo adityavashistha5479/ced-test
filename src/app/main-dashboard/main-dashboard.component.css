@@ -147,8 +147,8 @@
 }
 
 .cagr {
-  color: green;
-  font-weight: 500;
+  color: #63BF97;
+  font-weight: 400;
 }
 
 .calendar-item {
@@ -286,4 +286,12 @@
 
 .custom-margin {
   margin-left: 2%;
+}
+
+.profit{
+  float: right; 
+  margin-left: 90%;
+  color: #63BF97;
+  ;
+  font-weight: 400;
 }
