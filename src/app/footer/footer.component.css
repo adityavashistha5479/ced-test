@@ -43,5 +43,9 @@ svg {
 .arrow {
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 186px;
+}
+
+.custom-ml {
+  margin-left: 2px;
 }
