@@ -6,7 +6,7 @@
   line-height: 1.5rem;
   letter-spacing: 0.20000000298023224px;
   text-align: left;
-  background-image: url("/assets/Images/image.jpg") !important;
+  
  
 }
 
@@ -39,11 +39,17 @@
 }
 
 .card-header-custom-second {
-  /* background: url("/assets/Images/Headshotgreen.png"); */
-  background-color: white;
   border-radius: 10px !important;
   color: #333;
   height: 212px;
+  background-image: url(assets/Images/img15.jpg);
+background-position:center;
+background-repeat: no-repeat;
+color: #ffffff;
+}
+
+.get-started{
+  color: white !important;
 }
 
 .icon {
