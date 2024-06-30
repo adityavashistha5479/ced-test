@@ -1,6 +1,6 @@
 body {
   background-color: #f8f9fa;
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 .details p {
@@ -19,10 +19,6 @@ body {
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.calendar-item.active {
-  /* background-color: #ffecd2; */
-  /* border-left: 5px solid #ff6600; */
-}
 .calendar-item .date {
   display: flex;
   flex-direction: column;
@@ -31,13 +27,13 @@ body {
   width: 64.67px;
   height: 72.02px;
   border-radius: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-right: 10px;
   font-weight: 500;
   color: #d3d3d3;
   padding: 25px;
   border: 1px;
-  border-color: #EEEEEE;
+  border-color: #eeeeee;
   border-style: solid;
   font-weight: 700;
   font-size: 20px;
@@ -81,9 +77,21 @@ body {
   border: 1px solid #ff6600;
 }
 
-.upper-heading{
+.upper-heading {
   margin-bottom: 10%;
   font-weight: 700;
-font-size: 16px;
-line-height: 19.2px;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-calender {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .custom-calender {
+    display: none;
+  }
 }
