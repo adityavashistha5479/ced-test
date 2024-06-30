@@ -1,3 +1,5 @@
+
+
 .card-custom-top {
   margin-bottom: 3%;
   margin-top: 5%;
@@ -28,15 +30,25 @@
   border-radius: 10px;
   margin-bottom: 3%;
   margin-top: 5%;
-  height: 87%;
+  
+  
 }
 
 .card-header-custom {
   border-radius: 10px !important;
   background: linear-gradient(to right, #fff1da, #fef9f3);
   color: #333;
-  gap: 0px;
-  opacity: 0px;
+ 
+
+}
+
+.card-header-custom-second {
+  /* background: url("/assets/Images/Headshotgreen.png"); */
+  background-color: white;
+  border-radius: 10px !important;
+  color: #333;
+  height: 212px;
+ 
 }
 
 .icon {
@@ -90,8 +102,6 @@
   padding: 10px 0;
   margin-bottom: 10%;
   background-color: #f8f8f8;
-  width: 341px;
-  height: 80px;
 }
 
 .family-members .member-card:not(:last-child) {
@@ -151,7 +161,7 @@
   font-weight: 400;
 }
 
-.calendar-item {
+.investments-item  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -160,7 +170,7 @@
   margin-bottom: 5%;
 }
 
-.calendar-item .date {
+.investments-item  .inv {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -170,7 +180,6 @@
   height: 40%;
   border-radius: 10px;
   border: 1px 0px 0px 0px;
-  padding: 5%;
   background-color: #ffffff;
   font-weight: 500;
   color: #d3d3d3;
@@ -183,7 +192,7 @@
   border-style: solid;
 }
 
-.date .active {
+.inv .active {
   border-color: #f58024;
   border-style: solid;
   border: 1px 0px 0px 0px;
@@ -295,3 +304,11 @@
   ;
   font-weight: 400;
 }
+
+@media only screen and (min-width: 1081px) {
+  .container-fluid{
+    margin-left: 3.5%;
+   
+  }
+}
+

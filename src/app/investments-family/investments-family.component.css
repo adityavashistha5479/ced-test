@@ -51,8 +51,8 @@ body {
   padding: 10px;
   margin-bottom: 20px;
   background-color: #f8f8f8;
-  width: 341px;
-  height: 80px;
+  /* width: 341px;
+  height: 80px; */
   border-radius: 10px;
 }
 .family-members .member-card:not(:last-child) {
