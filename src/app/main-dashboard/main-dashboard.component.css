@@ -1,5 +1,3 @@
-
-
 .card-custom-top {
   margin-bottom: 3%;
   margin-top: 5%;
@@ -8,6 +6,11 @@
   line-height: 1.5rem;
   letter-spacing: 0.20000000298023224px;
   text-align: left;
+  background-image: url("/assets/Images/image.jpg") !important;
+  width: 500px;
+  height: 200px;
+  background-repeat: repeat-y; /* for vertical repeat */
+  background-repeat: repeat-x;
 }
 
 .total-wealth-heading {
@@ -30,16 +33,12 @@
   border-radius: 10px;
   margin-bottom: 3%;
   margin-top: 5%;
-  
-  
 }
 
 .card-header-custom {
   border-radius: 10px !important;
   background: linear-gradient(to right, #fff1da, #fef9f3);
   color: #333;
- 
-
 }
 
 .card-header-custom-second {
@@ -48,7 +47,6 @@
   border-radius: 10px !important;
   color: #333;
   height: 212px;
- 
 }
 
 .icon {
@@ -157,39 +155,40 @@
 }
 
 .cagr {
-  color: #63BF97;
+  color: #63bf97;
   font-weight: 400;
 }
 
-.investments-item  {
+.investments-item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 10px;
+  padding: 0px;
   border-radius: 10px;
   margin-bottom: 5%;
 }
 
-.investments-item  .inv {
+.investments-item .inv {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 120%;
-  height: 40%;
+  max-width: 120%;
+  min-width: 60%;
+  max-height: 40%;
+  min-height: 20%;
   border-radius: 10px;
   border: 1px 0px 0px 0px;
   background-color: #ffffff;
   font-weight: 500;
   color: #d3d3d3;
-  padding: 30%;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19.2px;
+  padding: 20%;
+  font-weight: 600;
   text-align: center;
   border-color: #eeeeee;
   border-style: solid;
+  margin-bottom: 20%;
+  margin-top: 15%;
 }
 
 .inv .active {
@@ -297,18 +296,47 @@
   margin-left: 2%;
 }
 
-.profit{
-  float: right; 
+.profit {
+  float: right;
   margin-left: 90%;
-  color: #63BF97;
-  ;
+  color: #63bf97;
   font-weight: 400;
 }
 
-@media only screen and (min-width: 1081px) {
-  .container-fluid{
-    margin-left: 3.5%;
-   
+@media only screen and (max-width: 1440px) {
+  .container-fluid {
+    margin-left: 3%;
   }
 }
 
+@media only screen and (max-width: 455px) {
+  .chair-selfie {
+    display: none;
+  }
+  .rich {
+    margin-left: 25%;
+  }
+  .investments-item {
+    display: inline-flex;
+    padding-right: 12%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .chair-selfie {
+    display: none;
+  }
+  .rich {
+    margin-left: 30%;
+  }
+  .rich-btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-fluid {
+    margin-left: 14%;
+    width: 47rem;
+  }
+}
