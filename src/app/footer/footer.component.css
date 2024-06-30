@@ -33,19 +33,37 @@ svg {
   background-color: #171d26 !important;
   color: #ffffff !important;
   padding: 1% 0%;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .custom-col {
     margin-left: -3% !important;
 }
 
-.arrow {
+#arrow1 {
   display: flex;
   align-items: center;
-  margin-left: 186px;
+  margin-left: 400px;
+}
+
+#arrow2 {
+  display: flex;
+  align-items: center;
+  margin-left: 260px;
+}
+
+#arrow3 {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
 }
 
 .custom-ml {
   margin-left: 2px;
+}
+
+p {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 2px;
 }
