@@ -7,10 +7,7 @@
   letter-spacing: 0.20000000298023224px;
   text-align: left;
   background-image: url("/assets/Images/image.jpg") !important;
-  width: 500px;
-  height: 200px;
-  background-repeat: repeat-y; /* for vertical repeat */
-  background-repeat: repeat-x;
+ 
 }
 
 .total-wealth-heading {
