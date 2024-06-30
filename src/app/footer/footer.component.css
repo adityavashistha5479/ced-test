@@ -39,3 +39,9 @@ svg {
 .custom-col {
     margin-left: -3% !important;
 }
+
+.arrow {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
