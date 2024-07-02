@@ -30,6 +30,8 @@
   border-radius: 10px;
   margin-bottom: 3%;
   margin-top: 5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .card-header-custom {
@@ -325,7 +327,7 @@ color: #ffffff;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   .chair-selfie {
     display: none;
   }
@@ -335,11 +337,11 @@ color: #ffffff;
   .rich-btn {
     display: none;
   }
-}
 
-@media only screen and (max-width: 1024px) {
-  .container-fluid {
-    margin-left: 14%;
-    width: 47rem;
+  .investments-item .inv{
+    padding: 10%;
   }
-}
+
+ }
+
+
