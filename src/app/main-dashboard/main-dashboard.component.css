@@ -6,8 +6,6 @@
   line-height: 1.5rem;
   letter-spacing: 0.20000000298023224px;
   text-align: left;
-  
- 
 }
 
 .total-wealth-heading {
@@ -45,12 +43,12 @@
   color: #333;
   height: 212px;
   background-image: url(assets/Images/img15.jpg);
-background-position:center;
-background-repeat: repeat;
-color: #ffffff;
+  background-position: center;
+  background-repeat: repeat;
+  color: #ffffff;
 }
 
-.get-started{
+.get-started {
   color: white !important;
 }
 
@@ -249,6 +247,7 @@ color: #ffffff;
 
 .lower-card {
   padding: 5%;
+  margin: 1%;
 }
 
 .custom-btn {
@@ -288,10 +287,10 @@ color: #ffffff;
 .upper-card-text {
   color: #ff7101;
 }
-.icon-upper-row{
+.icon-upper-row {
   margin-right: -5%;
 }
-.upper-col{
+.upper-col {
   margin-right: 10%;
 }
 .card-bg {
@@ -320,8 +319,7 @@ color: #ffffff;
 }
 
 @media only screen and (max-width: 455px) {
-
-  .container-fluid{
+  .container-fluid {
     padding: 0 !important;
     margin: 0 !important;
   }
@@ -331,39 +329,32 @@ color: #ffffff;
   .rich {
     margin-left: 30%;
   }
- 
-  .investments-item{
+
+  .investments-item {
     margin-bottom: 0%;
     width: 200px;
-   
+
     margin-left: 27%;
     margin-right: 27%;
     display: inline-flex;
     padding-right: 12%;
-    
   }
-  .investments-item .inv{
+  .investments-item .inv {
     padding: 10%;
     margin-bottom: 0%;
     margin-top: 5%;
   }
 
-  .profit{
+  .profit {
     margin-left: 80%;
   }
-  
 }
 
- @media only screen and (min-width: 320px) and (max-width: 424px) {
-  
-  .investments-item{
-  
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+  .investments-item {
     margin-left: 22%;
     margin-right: 22%;
     display: inline-flex;
     /* padding-right: 12%; */
-    
   }
- } 
-
-
+}
