@@ -5,3 +5,14 @@
     }
     
 }
+
+@media screen and (min-width: 1024px) and  (max-width: 2540px)  {
+    .custom-sidebar{
+        padding: 0;
+    }
+    
+    .custom-wealth-calender{
+        padding-right: 0;
+    }
+
+}
