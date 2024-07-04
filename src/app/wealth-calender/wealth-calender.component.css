@@ -7,20 +7,22 @@ body {
   font-size: 16px !important;
 }
 
-
+.custom-calender{
+  box-shadow: 1px 1px 6px 3px #0000000A;
+  width: 100%;
+  height: 862px;
+ 
+}
 
 .calendar {
   padding: 20px;
-  border-radius: 15px;
   background-color: #fff;
   height: 861px;
 }
 .calendar-item {
   display: flex;
   align-items: center;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  padding: 5px;
 }
 .calendar-item .date {
   display: flex;
@@ -29,25 +31,33 @@ body {
   justify-content: center;
   width: 64.67px;
   height: 72.02px;
-  border-radius: 10px;
+  
   background-color: #ffffff;
   margin-right: 10px;
-  font-weight: 500;
+ 
   color: #d3d3d3;
   padding: 25px;
-  border: 1px;
+  
   border-color: #eeeeee;
   border-style: solid;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+
+
+border-radius: 15px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
 }
 .calendar-item.active .date {
   background-color: #ffa953;
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  border: none;
+  border-radius: 10px;
 }
 .calendar-item .details {
   flex-grow: 1;
@@ -55,7 +65,12 @@ body {
 .calendar-item .details p {
   margin: 0;
   font-weight: 400;
-  font-size: 12px;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+text-align: left;
+color: #000000DB;
+
 }
 .calendar-nav {
   display: flex;
@@ -81,20 +96,38 @@ body {
 }
 
 .upper-heading {
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
   font-weight: 700;
   font-size: 16px;
   line-height: 19.2px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+margin: 20px 0 20px 10px;
+
 }
 
-@media only screen and (max-width: 768px) {
+.left-circle{
+  width: 56px;
+  height: 56px;
+}
+
+
+ @media only screen and (max-width: 1024px) {
   .custom-calender {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .custom-calender {
-    display: none;
+/* @media only screen and (min-width:375px) and (max-width: 425px) {
+  .inactive{
+    display: none !important;
   }
+  .upper-heading{
+    display: none !important;
+  }
+.custom-calender{
+  display: inline-flex !important;
 }
+ 
+  
+} */
